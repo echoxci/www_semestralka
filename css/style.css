@@ -1,0 +1,45 @@
+body {
+    background: rgba(10,1,1,0.10);
+}
+.masthead {
+    margin-top: 56px;
+    min-height:100%;
+    background:url("../assets/img/masthead.jpg") rgba(92, 77, 66, 0.8);
+    background-size:cover;
+    background-blend-mode: multiply;
+}
+.logo {
+    width:40px;
+}
+.navbar-brand {
+    color: black;
+}
+.navbar-dark {
+    background-color: brown;
+}
+header {
+    padding-top: 10rem;
+}
+h1 {
+    color: black;
+}
+p {
+    font-size: 22px;
+}
+hr.divider {
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: brown;
+    opacity: 1;
+}
+.btn-primary {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    color: white;
+    background-color: brown;
+}
+.nav-link {
+    color: white;
+}
