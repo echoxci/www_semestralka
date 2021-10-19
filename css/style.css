@@ -11,7 +11,7 @@ header {
     padding-top: 10rem;
 }
 .masthead {
-    margin-top: 56px;
+    margin-top: 64px;
     min-height:100%;
     background:url("../assets/img/masthead.jpg") rgba(92, 77, 66, 0.8);
     background-size:cover;
@@ -62,4 +62,7 @@ hr.divider {
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgba(255,255,255,.90);
+}
+.navbar-dark .navbar-nav .nav-link .active{
+    color: #7c90d4;
 }
