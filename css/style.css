@@ -1,24 +1,21 @@
 body {
     background: rgba(10,1,1,0.10);
 }
-.masthead {
-    margin-top: 56px;
-    min-height:100%;
-    background:url("../assets/img/masthead.jpg") rgba(92, 77, 66, 0.8);
-    background-size:cover;
-    background-blend-mode: multiply;
-}
 .logo {
     width:40px;
-}
-.navbar-brand {
-    color: black;
 }
 .navbar-dark {
     background-color: brown;
 }
 header {
     padding-top: 10rem;
+}
+.masthead {
+    margin-top: 56px;
+    min-height:100%;
+    background:url("../assets/img/masthead.jpg") rgba(92, 77, 66, 0.8);
+    background-size:cover;
+    background-blend-mode: multiply;
 }
 h1 {
     color: black;
@@ -40,6 +37,28 @@ hr.divider {
     color: white;
     background-color: brown;
 }
+.btn-primary:hover {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    color: white;
+    background-color: darkred;
+}
+.btn-primary:focus {
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    color: white;
+    background-color: darkred;
+}
 .nav-link {
     color: white;
+}
+@media (max-width: 992px) {
+    .masthead {
+        margin-top: 48px;
+    }
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,.90);
 }
